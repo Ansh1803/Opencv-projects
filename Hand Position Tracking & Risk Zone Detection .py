@@ -4,7 +4,7 @@ import time
 
 # Camera Feed
 cap = cv2.VideoCapture(0)
-#cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+#cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640) #(if you want set the camera resolution man)
 #cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 prev_time = time.time()
@@ -112,3 +112,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
