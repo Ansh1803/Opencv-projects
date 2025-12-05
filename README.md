@@ -1,4 +1,4 @@
-Hand Position Tracking & Risk Zone Detection (OpenCV)
+##Hand Position Tracking & Risk Zone Detection (OpenCV)
 
 This project tracks a hand using basic HSV skin segmentation and detects whether the hand is entering or approaching a defined danger region on the screen.
 What This Does
